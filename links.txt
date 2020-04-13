@@ -1,0 +1,19 @@
+Links:
+- ultimate masters: https://talk.objc.io/episodes/S01E167-building-a-collection-view-part-1
+- ultimate masters: https://talk.objc.io/episodes/S01E168-building-a-collection-view-part-2
+- first inspirations: https://stackoverflow.com/questions/56466306/uicollectionview-and-swiftui
+- easy horizontal scroll: https://medium.com/@max.codes/swiftui-collection-view-with-lists-1fa9f97a1f8
+- Photo assets: https://www.raywenderlich.com/4829472-uicollectionview-custom-layout-tutorial-pinterest
+- RandomAccessCollection split: https://forums.swift.org/t/supporting-collection-slice-by-slices-of-a-given-size-parameter/15186
+
+Fixes:
+- Not working landscape fix (kontiki's answer): https://stackoverflow.com/questions/57344471/any-experience-with-swifui-navigationview-in-landscape-on-iphone-xr-simulator
+- multireturn function (bodyFor in collection) - use of AnyView: https://www.hackingwithswift.com/quick-start/swiftui/how-to-fix-function-declares-an-opaque-return-type-but-has-no-return-statements-in-its-body-from-which-to-infer-an-underlying-ty
+- scrollView with ZStack scrolling to the end: https://stackoverflow.com/questions/56514788/enable-scrollview-over-scroll-in-swiftui
+- getting the scrollView end event (Menno's answer): https://stackoverflow.com/questions/56602089/in-swiftui-where-are-the-control-events-i-e-scrollviewdidscroll-to-detect-the
+
+Not used but good:
+- lazy loading list (not used): https://medium.com/better-programming/meet-greet-list-pagination-in-swiftui-8330ee15fd61
+- understanding PreferenceKey (not used though): https://swiftui-lab.com/communicating-with-the-view-tree-part-1/
+- understanding GeometryReader (not used though): https://swiftui-lab.com/geometryreader-to-the-rescue/
+- the Apple approach (not used) - to use UIKit: https://www.averyvine.com/blog/programming/2019/06/07/uicollectionview-and-uicollectionviewdiffabledatasource-in-swiftui

@@ -1,0 +1,22 @@
+/*
+ Localizable.strings
+ GifBrowser
+
+ Created by Adam Niepokój on 02/06/2019.
+ Copyright © 2019 Niepok. All rights reserved.
+ */
+"trendingTitle" = "Trending GIFs";
+"detailAddToFavouritesAction" = "Add to Favourites ❤️";
+"detailSaveToCameraRollAction" = "Save to Camera Roll 📷";
+"cancel" = "Cancel";
+"detailActionSheetMessage" = "Choose what to do:";
+"favourites" = "Favourites";
+"unknown" = "Something went wrong";
+"unauthorized" = "You're no longer authorized to accses this URL";
+"forbidden" = "You don't have access to this URL";
+"notFound" = "The server couldn't be found";
+"serverError" = "The server is experiencing some problems";
+"error" = "Something went wrong";
+"ok" = "OK";
+"savedTitle" = "Saved";
+"savedMessage"="This GIF was saved to Camera Roll";
