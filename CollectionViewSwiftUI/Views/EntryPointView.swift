@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct EntryPointView: View {
+    @EnvironmentObject var networkManager: NetworkingManager
+
     var body: some View {
         NavigationView {
             List {
@@ -16,6 +18,7 @@ struct EntryPointView: View {
                 NavigationLink(destination: FlowCollectionView(), label: { Text("Flow layout collection") })
                 NavigationLink(destination: SingleLineCollectionView(), label: { Text("Singleline collection") })
                 NavigationLink(destination: PlaygroundView(), label: { Text("Project playground") })
+                NavigationLink(destination: PokemonPlaygroundView().environmentObject(networkManager), label: { Text("Pokemon presentation collections") })
             }
             .navigationBarTitle("SwiftUICollectionView")
         }
