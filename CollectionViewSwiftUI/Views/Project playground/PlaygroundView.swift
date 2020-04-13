@@ -21,6 +21,7 @@ struct PlaygroundView: View {
             NavigationLink(destination: threeStrings(), label: { Text("3 collections - string model base, no paging") })
             NavigationLink(destination: threePagedStrings(), label: { Text("3 paged collections - string model base") })
         }
+        .listStyle(GroupedListStyle())
         .navigationBarTitle("Playground")
         .environment(\.horizontalSizeClass, .compact)
     }

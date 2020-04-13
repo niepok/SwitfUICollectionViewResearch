@@ -14,12 +14,18 @@ struct EntryPointView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: ColumnedCollectionView(), label: { Text("App Store like collection with multiline columns") })
-                NavigationLink(destination: FlowCollectionView(), label: { Text("Flow layout collection") })
-                NavigationLink(destination: SingleLineCollectionView(), label: { Text("Singleline collection") })
-                NavigationLink(destination: PlaygroundView(), label: { Text("Project playground") })
-                NavigationLink(destination: PokemonPlaygroundView().environmentObject(networkManager), label: { Text("Pokemon presentation collections") })
+                Section(header: Text("Research")) {
+                    NavigationLink(destination: ColumnedCollectionView(), label: { Text("App Store like collection with multiline columns") })
+                    NavigationLink(destination: FlowCollectionView(), label: { Text("Flow layout collection") })
+                    NavigationLink(destination: SingleLineCollectionView(), label: { Text("Singleline collection") })
+                }
+
+                Section(header: Text("Example playgrounds")) {
+                    NavigationLink(destination: PlaygroundView(), label: { Text("Project playground") })
+                    NavigationLink(destination: PokemonPlaygroundView().environmentObject(networkManager), label: { Text("Pokemon presentation collections")})
+                }
             }
+            .listStyle(GroupedListStyle())
             .navigationBarTitle("SwiftUICollectionView")
         }
     }

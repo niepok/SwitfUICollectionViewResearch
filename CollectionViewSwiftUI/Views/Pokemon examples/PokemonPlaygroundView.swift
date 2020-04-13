@@ -17,6 +17,7 @@ struct PokemonPlaygroundView: View {
             NavigationLink(destination: genericExample(), label: { Text("3 collections - cell view independency example") })
             NavigationLink(destination: differentLayoutStyle(), label: { Text("3 collections - different layout style") })
         }
+        .listStyle(GroupedListStyle())
         .navigationBarTitle("Catch them all!")
     }
 
